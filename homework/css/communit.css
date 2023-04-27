@@ -1,0 +1,74 @@
+#communit {
+    background-image: url(../assets/images/communit-img.png);
+    background-size: contain;
+}
+
+.communit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.communit > h2 {
+    padding-top: 126px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    text-align: center;
+    color: #141820;
+    width: 746px;
+}
+
+.communit > p {    
+    padding-top: 35px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 846px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #555555;
+}
+
+.communit-email {
+    padding-bottom: 125px;
+}
+.submit {
+    width: 221px;
+    height: 70px;
+    background:  rgba(87, 184, 255, 1);
+    border-radius: 0px 5px 5px 0px;
+}
+.submit a {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.email::placeholder {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #555555;
+}
+.email {
+    width: 450px;
+    height: 70px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: -10px;
+}
+

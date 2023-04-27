@@ -1,0 +1,160 @@
+@media(max-width:1400px) {
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .navbar-menu {
+        display: none;
+    }
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+
+    }
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .home-text {
+        width: 700px;
+    }
+    .home-image {
+        margin-top: -200px;
+    }
+    .sponsor-card {
+        justify-content: center;
+        align-content: center;
+        gap: 30px 150px;
+        flex-wrap: wrap;
+    }
+    .card {
+        justify-content: space-between;
+    }
+    .card-mini {
+        width: 45%;
+    }
+    .era-text{
+        width: 50%;
+    }
+}
+
+@media (max-width:1250px) {
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .era {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .era-text{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .era-text > h2 {
+        padding-bottom: 25px;
+    }
+    .era-image {
+        display: none;
+    }
+    .multiplayer-card  > img {
+        width:300px;
+    }
+}
+
+@media (max-width:1110px) {
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+}
+@media (max-width:950px) {
+    .card-mini {
+        width: 100%;
+    }
+}
+
+@media (max-width:810px) {
+    .container {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .home-text {
+        width: 400px;
+        height: 650px;
+    }
+    .home-image {
+        display:none;
+    }
+    .home-text > h1 {
+        font-size:48px;
+        line-height: 60px;
+    }
+    .shop > h2 {
+        width: 90%;
+        font-size: 48px;
+    }
+    .shop > p {
+        width: 90%;
+    }
+    .multiplayer{
+        flex-direction: column;
+        width: calc(100% * 1);
+    }
+    .multiplayer-card {
+        width: 100%;
+        height: calc(750px / 3);
+
+    }
+    .multiplayer-card > img {
+        width: 300px;
+    }
+}
+
+@media (max-width:610px) {
+    #dark-light {
+        display: none;
+    }
+    .container {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .sponsor-text {
+        width: 90%;
+    }
+    .sponsor-text > p {
+        width: 90%;
+    }
+    .shop > h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .multiplayer{
+        flex-direction: column;
+        width: calc(100% * 1);
+    }
+    .multiplayer-card {
+        /* width: 100%; */
+        height: calc(350px / 3);
+    }
+    .multiplayer-card > img {
+        width: 200px;
+    }
+}
+@media (max-width:460px) {
+    .container {
+        width: 340px;
+        margin: 0 auto;
+    }
+    .era-text > h2 {
+        font-size: 24px;
+    }
+}
+

@@ -1,0 +1,100 @@
+#anim {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+  height: 100px;
+}
+
+.animation-chiziq {
+  margin: 200px auto;
+  text-align: center;
+  height: 100px;
+}
+
+.chiziq {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  height: 0px;
+  width: 0px;
+  vertical-align: middle;
+  background-color: rgb(0, 218, 116);
+  margin-left: 15px;
+  animation-name: load;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+}
+
+.chiziq1 {
+  margin-left: 0;
+}
+
+@keyframes load {
+
+  0% {
+    height: 50px;
+    width: 5px;
+    background-color: rgb(4, 233, 126);
+  }
+
+  50% {
+    height: 100px;
+    background-color: rgb(249, 253, 11);
+  }
+
+  100% {
+    height: 50px;
+    width: 5px;
+    background-color: rgb(5, 232, 126);
+  }
+}
+
+.chiziq1 {
+  animation-delay: 0s;
+}
+
+.chiziq2 {
+  animation-delay: 0.07s;
+}
+
+.chiziq3 {
+  animation-delay: 0.14s;
+}
+
+.chiziq4 {
+  animation-delay: 0.21s;
+}
+
+.chiziq5 {
+  animation-delay: 0.28s;
+}
+
+.chiziq6 {
+  animation-delay: 0.32s;
+}
+
+.chiziq7 {
+  animation-delay: 0.39s;
+}
+
+.chiziq8 {
+  animation-delay: 0.46s;
+}
+
+.chiziq9 {
+  animation-delay: 0.53s;
+}
+
+.chiziq10 {
+  animation-delay: 0.6s;
+}
+
+.chiziq11 {
+  animation-delay: 0.67s;
+}
+
+.chiziq12 {
+  animation-delay: 0.74s;
+}

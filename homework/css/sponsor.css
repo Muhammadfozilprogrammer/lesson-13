@@ -1,0 +1,49 @@
+
+#sponsor {
+    background-color: rgba(253, 208, 74, 1);
+}
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sponsor-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sponsor-text > .sponsor-line {
+    margin-top: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.sponsor-text h2 {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #222730;
+}
+.sponsor-text > p {
+    padding-top: 29px;
+    width: 576px;
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #555555;
+    padding-bottom: 41px;
+}
+
+.sponsor-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-bottom: 130px;
+}

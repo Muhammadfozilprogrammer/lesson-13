@@ -1,0 +1,36 @@
+#multiplayer {
+    margin: 0;
+}
+
+.multiplayer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 750px;
+}
+.multiplayer-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:calc(100%/3);
+}
+.multiplayer-card  > img {
+    width:480px;
+}
+.multiplayer-card:first-child{
+    background-image: url(../assets/images/multiplaye-img-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.multiplayer-card:nth-child(2){
+    background-image: url(../assets/images/multiplaye-img-2.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}.multiplayer-card:last-child{
+    background-image: url(../assets/images/multiplaye-img-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
